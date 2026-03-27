@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 print("Plot starting...")
+plt.rcParams["font.family"] = "Arial"
+
 # Load CLEAN dataset
 df = pd.read_csv("Traffic_Incidents_filtered_2020.csv")
 
